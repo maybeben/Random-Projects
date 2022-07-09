@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+h1, form, div{
+  text-align:center;
+}
+form{
+ font-size: 20px
+}
+h1{
+  color:black;
+}
+button{
+  color: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  background: #2977c9;
+  width: 150px;
+  height: 30px;
+}
+#divmain{
+  height: 600px;
+  width: 300px;
+  border: 0.5px solid black;
+  padding: 50px;
+  margin: 0px auto;
+  background-color: white;
+}

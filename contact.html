@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>AltSchool Assignment</title>
+  <link href="contact.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color:#eceef0">
+  <div id="divmain">
+  <h1>Contact Section</h1>
+  <form action="" method="post">
+        <div>
+        <label id="name" for="name">Name</label><br>
+        <input 
+            type="text" 
+            name="name" 
+            id="name" 
+            class="name" 
+            required/>
+        </div>
+
+        <div>
+            <label for="mail">Email Address</label><br>
+            <input 
+                type="email" 
+                name="mail" 
+                id="mail" 
+                class="mail" 
+                required/>
+        </div>
+
+        <div>
+            <label for="message">Message</label><br>
+            <input 
+                type="text" 
+                name="message" 
+                id="message" 
+                class="message" 
+                required/>
+            </div>
+    <div>
+            <label for="priority">Priority</label><br>
+            <select name="priority" id="priority">
+                <option value="High">High</option>
+              <option value="Low">Low</option>
+            </select>
+            </div>
+    <button>Submit</button>
+  </form>
+  <div>
+   <a href="index.html">
+        <button class="home">
+            Go Home
+        </button>
+    </a>
+  </div>
+  </div>
+</body>
+</html>
